@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #777;
+}
+
+a:link {  color: #fff;}
+a:visited { color: #fff;}
+a:hover {  color: #b4b4b4; text-decoration: underline;}
+a:active {  color: #b4b4b4; text-decoration: underline;}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("summer-sun.jpg");
+  height: 100%;
+  color: #000;
+}
+
+.caption_1 {
+  font-family: 'Kalam', cursive;
+  position: absolute;
+  left: 0;
+  top: 38%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption_2 {
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  left: 0;
+  top: 58%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+@media screen and (min-width: 766px) {
+.caption_1 span.border {
+  background-color: #111;
+  opacity: 0.9;
+  color: #fff;
+  padding:  .2em .7em .1em .7em;
+  font-size: 2.5em;
+  letter-spacing: 0.2em;
+  border-radius: 64px;
+}
+  
+.caption_2 span.border {
+  background-color: #111;
+  opacity: 0.9;
+  color: #fff;
+  padding:  .4em .7em .5em .7em;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  width: 40%;
+}
+}
+
+@media screen and (max-width: 765px) {
+.caption_1 span.border {
+  background-color: #111;
+  opacity: 0.9;
+  color: #fff;
+  padding:  .2em .7em .1em .7em;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  border-radius: 64px;
+}
+  
+.caption_2 span.border {
+  background-color: #111;
+  opacity: 0.9;
+  color: #fff;
+  padding:  .4em .7em .5em .7em;
+  font-size: .9em;
+  letter-spacing: 0.2em;
+  width: 40%;
+}
+.caption_1 {
+  font-family: 'Kalam', cursive;
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption_2 {
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  left: 0;
+  top: 65%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}  
+}
+@media screen and (max-width: 500px) {
+.caption_1 span.border {
+  background-color: #111;
+  opacity: 0.9;
+  color: #fff;
+  padding:  .2em .7em .1em .7em;
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+  border-radius: 64px;
+}
+  
+.caption_2 span.border {
+  background-color: #111;
+  opacity: 0.9;
+  color: #fff;
+  padding: .4em .5em .5em .5em;
+  font-size: .95em;
+  letter-spacing: 0.1em;
+  width: 40%;
+}
+.caption_1 {
+  font-family: 'Kalam', cursive;
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption_2 {
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  left: 0;
+  top: 65%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  line-height: 1.7em;
+}
+}
